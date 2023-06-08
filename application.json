@@ -35,6 +35,10 @@
     {
       "id": "Header",
       "isDefault": false
+    },
+    {
+      "id": "Test-page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
