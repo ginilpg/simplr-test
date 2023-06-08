@@ -1,0 +1,88 @@
+{
+  "pages": [
+    {
+      "id": "Login",
+      "isDefault": true
+    },
+    {
+      "id": "Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "CreateCustomer",
+      "isDefault": false
+    },
+    {
+      "id": "CustomerList",
+      "isDefault": false
+    },
+    {
+      "id": "ViewCustomer",
+      "isDefault": false
+    },
+    {
+      "id": "EditCustomer",
+      "isDefault": false
+    },
+    {
+      "id": "CronExpressionInfo",
+      "isDefault": false
+    },
+    {
+      "id": "Error",
+      "isDefault": false
+    },
+    {
+      "id": "Header",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "top",
+      "navStyle": "stacked",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": true
+    }
+  },
+  "publishedApplicationDetail": {
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "top",
+      "navStyle": "stacked",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": true
+    }
+  },
+  "color": "#CCCCCC",
+  "icon": "server",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "embedSetting": {
+    "height": "720px",
+    "width": "1024px",
+    "showNavigationBar": false
+  },
+  "isManualUpdate": false,
+  "deleted": false
+}

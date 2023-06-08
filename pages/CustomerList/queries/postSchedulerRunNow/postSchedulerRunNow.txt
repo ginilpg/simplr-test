@@ -1,0 +1,4 @@
+{
+	"accountId":{{customer_list_table.selectedRow.CustomerID}},
+	"jobName":{{schedulers_list_table.selectedRow.job_name}}
+}

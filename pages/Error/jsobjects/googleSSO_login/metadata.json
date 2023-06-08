@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "googleSSO_login",
+    "pageId": "Error",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Error_googleSSO_login",
+  "deleted": false,
+  "gitSyncId": "631090df8c0f2106c3b57fc8_6332b9516d3346490715a7ec"
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "LoginAs",
+    "pageId": "CronExpressionInfo",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CronExpressionInfo_LoginAs",
+  "deleted": false,
+  "gitSyncId": "626fc4d1281fb45b9ce6c171_6290b8807e62305bc7c5aa85"
+}

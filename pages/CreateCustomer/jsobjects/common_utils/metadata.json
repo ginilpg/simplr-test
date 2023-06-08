@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "common_utils",
+    "pageId": "CreateCustomer",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CreateCustomer_common_utils",
+  "deleted": false,
+  "gitSyncId": "62e22ba9aed1634b6819e4a2_62e23ab9aed1634b6819e549"
+}

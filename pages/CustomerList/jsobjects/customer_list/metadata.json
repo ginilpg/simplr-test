@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "customer_list",
+    "pageId": "CustomerList",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CustomerList_customer_list",
+  "deleted": false,
+  "gitSyncId": "62d7c8ab405192404f1f6d8b_62d90591ca2dc2744e2aa827"
+}
