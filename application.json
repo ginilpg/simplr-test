@@ -1,44 +1,8 @@
 {
   "pages": [
     {
-      "id": "Login",
-      "isDefault": true
-    },
-    {
-      "id": "Dashboard",
-      "isDefault": false
-    },
-    {
-      "id": "CreateCustomer",
-      "isDefault": false
-    },
-    {
-      "id": "CustomerList",
-      "isDefault": false
-    },
-    {
-      "id": "ViewCustomer",
-      "isDefault": false
-    },
-    {
-      "id": "EditCustomer",
-      "isDefault": false
-    },
-    {
-      "id": "CronExpressionInfo",
-      "isDefault": false
-    },
-    {
-      "id": "Error",
-      "isDefault": false
-    },
-    {
-      "id": "Header",
-      "isDefault": false
-    },
-    {
       "id": "Testinggg",
-      "isDefault": false
+      "isDefault": true
     }
   ],
   "viewMode": false,

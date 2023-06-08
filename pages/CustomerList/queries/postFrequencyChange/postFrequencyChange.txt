@@ -1,5 +1,0 @@
-{
-	"accountId":{{customer_list_table.selectedRow.CustomerID}},
-	"jobName":{{schedulers_list_table.selectedRow.job_name}},
-	"jobFrequency":{{(minute_txt.text+" "+hour_txt.text+" "+day_txt.text+" "+month_txt.text+" "+week_txt.text+" "+year_txt.text)}}
-}
