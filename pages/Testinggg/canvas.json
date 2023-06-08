@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Test-page",
-    "slug": "test-page",
+    "name": "Testinggg",
+    "slug": "testinggg",
     "layouts": [
       {
         "viewMode": false,
@@ -118,7 +118,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Test-page",
+        "id": "Testinggg",
         "deleted": false,
         "policies": [],
         "userPermissions": []
