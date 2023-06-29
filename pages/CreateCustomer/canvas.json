@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 79,
+          "version": 80,
           "minHeight": 960,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -2894,6 +2894,18 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "CreateCustomer_getFeatureList",
+              "name": "getFeatureList",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.a_token"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "CreateCustomer_common_utils.onLoad",
               "name": "common_utils.onLoad",
               "collectionId": "CreateCustomer_common_utils",
@@ -2901,16 +2913,6 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "async () => {\n  await ListAllTimezones.run(() => {}, () => {\n    storeValue('statusCode', ListAllTimezones.responseMeta.statusCode);\n    common_utils.error401();\n  });\n  await storeValue('searchByLabel', undefined);\n  await storeValue('searchByValue', undefined);\n  await storeValue('searchStatus', undefined);\n  await storeValue('searchText', undefined);\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "CreateCustomer_getFeatureList",
-              "name": "getFeatureList",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.a_token"
               ],
               "timeoutInMillisecond": 10000
             }
