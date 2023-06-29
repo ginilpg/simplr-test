@@ -1,4 +1,4 @@
-This is a testin gapp of our client
+This is a testin gapp of our clients
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
 
