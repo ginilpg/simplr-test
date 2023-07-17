@@ -1,0 +1,55 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "widgetName": "Tabs1",
+    "isCanvas": true,
+    "displayName": "Tabs",
+    "iconSVG": "/static/media/icon.74a6d653.svg",
+    "topRow": 0,
+    "bottomRow": 68,
+    "parentRowSpace": 10,
+    "type": "TABS_WIDGET",
+    "hideCard": false,
+    "shouldScrollContents": false,
+    "animateLoading": true,
+    "parentColumnSpace": 16.591064453125,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "defaultTab"}
+    ],
+    "key": "i0cd6l9iuz",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "dynamicHeight": "FIXED",
+    "widgetId": "lwzdsc9008",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "defaultTab": "Tab {{set_loading.getMenu()}}",
+    "shouldShowTabs": false,
+    "tabsObj": {
+        "tab1": {
+            "widgetId": "in6fnss7qj",
+            "index": 0,
+            "label": "Tab 1",
+            "id": "tab1",
+            "isVisible": true
+        },
+        "tab2": {
+            "widgetId": "fmq8ehw6r1",
+            "index": 1,
+            "label": "Tab 2",
+            "id": "tab2",
+            "isVisible": true
+        }
+    },
+    "isVisible": true,
+    "version": 3,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}

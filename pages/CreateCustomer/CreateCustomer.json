@@ -1,0 +1,91 @@
+{
+  "unpublishedPage": {
+    "name": "CreateCustomer",
+    "slug": "createcustomer",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1210,
+          "containerStyle": "none",
+          "snapRows": 95,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 80,
+          "minHeight": 960,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "CreateCustomer_getDemoAccountList",
+              "name": "getDemoAccountList",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.a_token"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "CreateCustomer_ListAllTimezones",
+              "name": "ListAllTimezones",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.a_token"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "CreateCustomer_getFeatureList",
+              "name": "getFeatureList",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.a_token"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "CreateCustomer_common_utils.onLoad",
+              "name": "common_utils.onLoad",
+              "collectionId": "CreateCustomer_common_utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  await ListAllTimezones.run(() => {}, () => {\n    storeValue('statusCode', ListAllTimezones.responseMeta.statusCode);\n    common_utils.error401();\n  });\n  await storeValue('searchByLabel', undefined);\n  await storeValue('searchByValue', undefined);\n  await storeValue('searchStatus', undefined);\n  await storeValue('searchText', undefined);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "CreateCustomer",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "gitSyncId": "626fc4d1281fb45b9ce6c171_6281d501a5708b461bfa07f1"
+}

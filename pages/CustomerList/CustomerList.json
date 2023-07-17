@@ -1,0 +1,57 @@
+{
+  "unpublishedPage": {
+    "name": "CustomerList",
+    "slug": "customerlist",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1000,
+          "containerStyle": "none",
+          "snapRows": 95,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 80,
+          "minHeight": 960,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "CustomerList_common_utils.onpageload",
+              "name": "common_utils.onpageload",
+              "collectionId": "CustomerList_common_utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  await postCustomerList.run(() => {}, () => {\n    storeValue('statusCode', postCustomerList.responseMeta.statusCode);\n    common_utils.error401();\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "CustomerList",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "gitSyncId": "626fc4d1281fb45b9ce6c171_627c8ebfa5708b461bfa0771"
+}
