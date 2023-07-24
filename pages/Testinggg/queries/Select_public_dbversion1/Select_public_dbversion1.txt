@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.dbversion
+WHERE
+  "entity" ilike '%{{Table1.searchText}}%'
+ORDER BY
+  "{{Table1.sortOrder.column || 'entity'}}" {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table1.pageSize}}
+OFFSET
+  {{Table1.pageOffset}}

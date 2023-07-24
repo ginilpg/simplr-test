@@ -1,0 +1,1 @@
+INSERT INTO public.dbversion ("entity","sql_dump_version") VALUES ('{{(Table1.newRow || {}).entity}}','{{(Table1.newRow || {}).sql_dump_version}}')

@@ -25,6 +25,7 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
+
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
