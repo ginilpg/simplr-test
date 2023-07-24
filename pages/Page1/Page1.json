@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Testinggg",
-    "slug": "testinggg",
+    "name": "Page1",
+    "slug": "page1",
     "layouts": [
       {
         "viewMode": false,
@@ -15,30 +15,28 @@
           "topRow": 0,
           "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 67,
+          "snapRows": 56,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 78,
-          "minHeight": 690,
+          "version": 80,
+          "minHeight": 580,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Testinggg",
+        "id": "Page1",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": false
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "6481a1c8d5744225ec8745c9_6481a1e5d5744225ec874660"
+  "gitSyncId": "649c16e86bb6a47ff9972bed_649d753c6bb6a47ff9972d26"
 }

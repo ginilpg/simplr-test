@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "refreshTable",
-    "fullyQualifiedName": "customer_list.refreshTable",
+    "name": "myFun2",
+    "fullyQualifiedName": "JSObject1.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,17 +13,18 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "CustomerList",
-    "collectionId": "CustomerList_customer_list",
+    "pageId": "Login",
+    "collectionId": "Login_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,9 +36,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-06-29T13:04:46Z"
   },
-  "id": "CustomerList_customer_list.refreshTable",
+  "id": "Login_JSObject1.myFun2",
   "deleted": false,
-  "gitSyncId": "62fb5e8058054f776709bb7d_62fc80f458054f776709bc35"
+  "gitSyncId": "649c16e86bb6a47ff9972bed_649d816e6bb6a47ff9972d2d"
 }
