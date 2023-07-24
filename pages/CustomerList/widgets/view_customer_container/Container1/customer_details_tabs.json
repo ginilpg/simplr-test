@@ -1,0 +1,77 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "widgetName": "customer_details_tabs",
+    "isCanvas": true,
+    "dynamicPropertyPathList": [
+        {"key": "tabsObj.tabvc0wz6jcud.isVisible"},
+        {"key": "tabsObj.tab2.isVisible"}
+    ],
+    "displayName": "Tabs",
+    "iconSVG": "/static/media/icon.74a6d653.svg",
+    "topRow": 8,
+    "bottomRow": 74,
+    "parentRowSpace": 10,
+    "type": "TABS_WIDGET",
+    "hideCard": false,
+    "shouldScrollContents": false,
+    "animateLoading": true,
+    "parentColumnSpace": 15.515777587890625,
+    "dynamicTriggerPathList": [{"key": "onTabSelected"}],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "tabsObj.tabvc0wz6jcud.isVisible"},
+        {"key": "tabsObj.tab2.isVisible"}
+    ],
+    "key": "h7rcqurolt",
+    "rightColumn": 64,
+    "dynamicHeight": "FIXED",
+    "widgetId": "ix5pavcscy",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "defaultTab": "Instances",
+    "onTabSelected": "{{customer_list.onTabSelection()}}",
+    "shouldShowTabs": true,
+    "tabsObj": {
+        "tab828nsi96cz": {
+            "widgetId": "3t6xoszehm",
+            "isDuplicateLabel": false,
+            "index": 3,
+            "id": "tab828nsi96cz",
+            "label": "Reports",
+            "isVisible": false
+        },
+        "tab1": {
+            "widgetId": "7zox9ma357",
+            "isDuplicateLabel": false,
+            "index": 0,
+            "label": "Instances",
+            "id": "tab1",
+            "isVisible": true
+        },
+        "tab2": {
+            "widgetId": "jbui4qoz6f",
+            "isDuplicateLabel": false,
+            "index": 1,
+            "label": "Schedulers",
+            "id": "tab2",
+            "isVisible": "{{customer_details_table.selectedRow.status === 'Active'}}"
+        },
+        "tabvc0wz6jcud": {
+            "widgetId": "sz2slgaua3",
+            "isDuplicateLabel": false,
+            "index": 2,
+            "id": "tabvc0wz6jcud",
+            "label": "Delegation",
+            "isVisible": "{{customer_details_table.selectedRow.status === 'Active' && common_utils.matchPermission(['get_all_delegation_requests'])}}"
+        }
+    },
+    "isVisible": true,
+    "version": 3,
+    "parentId": "yjbpnkymbt",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}

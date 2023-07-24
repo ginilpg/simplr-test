@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.users
+WHERE
+  "latitude" ilike '%{{tab2table.searchText}}%'
+ORDER BY
+  "{{tab2table.sortOrder.column || 'id'}}" {{tab2table.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{tab2table.pageSize}}
+OFFSET
+  {{tab2table.pageOffset}}
