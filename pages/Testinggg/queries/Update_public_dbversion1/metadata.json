@@ -15,6 +15,7 @@
     },
     "pageId": "Testinggg",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE public.dbversion SET \"entity\"= '{{Table1.updatedRow.entity}}', \"sql_dump_version\"= '{{Table1.updatedRow.sql_dump_version}}' WHERE \"entity\"= {{Table1.updatedRow.entity}};",

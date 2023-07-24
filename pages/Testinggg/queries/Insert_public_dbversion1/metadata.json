@@ -15,6 +15,7 @@
     },
     "pageId": "Testinggg",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "INSERT INTO public.dbversion (\"entity\",\"sql_dump_version\") VALUES ('{{(Table1.newRow || {}).entity}}','{{(Table1.newRow || {}).sql_dump_version}}')",

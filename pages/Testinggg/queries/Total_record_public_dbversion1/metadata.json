@@ -15,6 +15,7 @@
     },
     "pageId": "Testinggg",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "SELECT COUNT(*) from public.dbversion where entity ilike '%{{Table1.searchText}}%';",
